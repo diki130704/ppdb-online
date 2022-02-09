@@ -1,0 +1,61 @@
+Pembukaan :
+Assalamualaikum wr.wb. 
+Perkenalkan nama saya ... dari kelas ... berdirinya saya disini tidak lain dan tidak bukan adalah untuk mempresentasikan hasil pekerjaan saya selama pkl. Nama projek 
+yang saya kerjakan adalah PPDB Online.  
+
+Database : 
+Disini saya hanya menggunakan 4 tabel, tb users, data peserta, berkas peserta, dan kartu peserta. Dengan tb data peserta sebagai parent, dan tb berkas peserta serta 
+kartu peserta sebagai child. Yang pertama ada tb users, fungsi tabel ini adalah untuk menyimpan data admin, jadi hanya yang datanya ada di tabel ini saja yang bisa 
+masuk ke halaman admin. Selanjutnya ada tb data peserta, yang berfungsi untuk menyimpan data calon siswa yang sudah mendaftar. 2 tabel terakhir ada tb berkas peserta 
+dan kartu peserta, fungsi dari tb berkas peserta adalah untuk menyimpan persyaratan yang dibutuhkan, sedangkan fungsi tb kartu peserta sebagai tempat menyimpan kartu 
+peserta untuk melakukan tes seleksi. Dari ke2 tabel tsb terdapat masing-masing satu foreign key dari tb data peserta. Setelah mengetahui tabel apa saja yang
+dibutuhkan, kita langsung saja ke tampilan websitenya. 
+
+Alasan : 
+Alasan saya membuat website ini karena masih ada sekolah yang melakukan pendaftaran siswa baru secara offline, dan masih menggunakan formulir pendaftaran yang terbuat
+dari kertas. Dan saya rasa, di zaman yang sudah serba modern seperti saat ini, cara tersebut sudah tidak lagi efektif. 
+
+Pemanfaatan : 
+Pada tahun 2022 ini, semakin banyak orang Indonesia yang mengakses internet. Jadi saya pikir siswa tidak perlu lagi datang ke sekolah hanya untuk melakukan pendaftaran.
+Dan semua yang siswa perlu lakukan adalah cukup dengan mengakses website ini dari rumah.
+
+Batasan Masalah : 
+Masalah yang saya temui adalah sayangnya aplikasi ini baru akan dapat diakses oleh siswa dalam waktu dekat. Saya sudah mencoba untuk menghosting website ini di heroku 
+namun tidak bisa, karena rejected saat di git push heroku master.
+Masalah selanjutnya adalah untuk mobile hanya dapat diakses melalui platform android. / untuk saat ini, selain android tidak bisa.
+
+Use Case : 
+Disini terdapat 2 aktor, yaitu calon siswa dan admin. Calon siswa bisa melakukan pendaftaran, namun sebelum datanya diproses calon siswa diharuskan untuk mengisi form, 
+dan melengkapi persyaratan, selain itu, calon siswa bisa juga melihat profil sekolah, jurusan yang ada, keunggulan, persyaratan, alur pendaftaran, dan mengunduh 
+pengumuman hasil tes seleksi. Sementara admin, bisa mengelola data & persyaratan calon siswa, dan export excel, yang sifatnya optional, dan ke2 aksi tersebut hanya 
+bisa dilakukan ketika sudah login sebagai admin.
+
+Demo aplikasi : 
+Disini saya membuat 2 tampilan sekaligus, Front-end & back-end. Tapi sebelum ke halaman admin, kita lihat halaman user terlebih dahulu. Ini adalah halaman user. Di 
+bagian navbar terdapat 5 menu, yaitu ... Di halaman beranda terdapat slideshow foto dari SMK Assalaam, thn pelajaran, jalur daftar, dan tombol daftar untuk menjadi 
+siswa di SMK Assalaam. Selanjutnya, di halaman tentang, kita dapat melihat logo SMK Assalaam serta profilnya. Berikutnya, di halaman jurusan, kita dapat mengetahui 
+jurusan apa saja yang ada di SMK Assalaam lengkap dengan deskripsinya. Selanjutnya, di halaman informasi terbagi menjadi 3 bagian, yaitu keunggulan kenapa harus 
+sekolah di SMK Assalaam, persyaratan apa saja yang dibutuhkan, dan alur pendaftaran. Berikutnya, di halaman pengumuman calon siswa dapat mengunduh pdf untuk 
+mengetahui apakah ia diterima atau tidak. Terakhir, di halaman paling bawah, terdapat footer, didalam footer tsb ada kunjungi kami yang berisi alamat SMK Assalaam, 
+dan hubungi kami yang berisi email, central office, serta fax SMK Assalaam. Selanjutnya ada unit pendidikan dari Yayasan Assalaam dan ini jika diklik maka akan mengarah 
+langsung ke halaman resmi websitenya. Berikutnya ada ikuti kami, yang berisi sosial media dari SMK Assalaam dan juga jika di klik langsung mengarah ke sosial media
+resmi SMK Assalaam. Dan paling terakhir, yang berada di posisi paling bawah website, ada copyright atas nama saya.
+
+Admin :
+Sebelum mengakses halaman admin, harus login terlebih dahulu. Di halaman dashboard terdapat jumlah pendaftar, jumlah siswa yang belum ditentukan, jumlah siswa yang
+diterima, dan jumlah siswa yang tidak diterima. Jumlah ini terus berubah sesuai dengan data yang ada. Selanjutnya, ada halaman data peserta, disini terdapat fitur 
+ekspor excel yang memungkinkan kita untuk mengolah data yang ada menggunakan microsoft excel maupun google spreadsheet. 
+Speadsheet : 
+Disini kita bisa mengolah data yang ada, misalnya dalam hal menentukan kelas. Dan jika sudah beres, bisa di save berupa pdf
+
+Kesimpulan & Penutup : 
+Kesimpulan yang dapat saya ambil adalah siswa dapat melakukan pendaftaran secara online, jadi siswa tidak perlu repot datang ke sekolah, lebih dari itu, web ini dibuat 
+untuk menghemat penggunaan kertas yang biasanya dipakai dalam membuat formulir pendaftaran. Poin ke 2, selain itu, web ini dibuat sebagai tempat berbagai informasi
+mengenai ppdb, seperti yang sudah saya perlihatkan, web ini berisi informasi tentang sekolah, jurusan yang ada, keunggulan, persyaratan, alur pendaftaran, dan 
+pengumuman hasil tes seleksi. Poin ke 3, setelah tadi kita melihat dari sudut pandang pengguna, sekarang kita beralih ke sudut pandang admin, disini web ini juga
+berfungsi untuk memudahkan admin dalam hal mengelola dan mengolah data calon siswa. Dan di poin terakhir, harapan saya untuk web yang saya buat adalah semoga bisa
+bermanfaat dan digunakan dengan bijak oleh para penggunanya.
+
+Akhir kata : 
+Cukup sekian yang dapat saya sampaikan, saya menyadari bahwa web ini masih jauh dari kata sempurna, karena saya membuat web ini dengan otak dan tangan saya sendiri, 
+saya mohon kritik dan saran yang membangun, dan atas perhatiannya saya ucapkan terima kasih. Wassalam.
